@@ -1,5 +1,4 @@
 <?php
-//defined('___STORZ___') or die('Restricted Access');
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 require_once 'config.php';
 
