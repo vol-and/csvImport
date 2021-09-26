@@ -36,19 +36,19 @@ switch ($c) {
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Nafems Backend</title>
-    <link href="libs/bootstrap-5.0.2/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="libs/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" type="text/css"/>
-    <link href="libs/toastr/build/toastr.css" rel="stylesheet" type="text/css"/>
+    <title>Backend</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" integrity="sha384-tKLJeE1ALTUwtXlaGjJYM3sejfssWdAaWR2s97axw4xkiAdMzQjtOjgcyw0Y50KU" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.css" rel="stylesheet" type="text/css"/>
     <link href="css/dashboard.css" rel="stylesheet" type="text/css">
-    <script src="libs/jquery-3.6.0.min.js"></script>
-    <script src="libs/bootstrap-5.0.2/js/bootstrap.min.js"></script>
-    <script src="libs/toastr/toastr.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" type="text/javascript"></script>
 </head>
 <body>
 <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
     <div class="navbar-brand ms-4 me-0">
-        <a href="<?php echo DOMAIN;?>/participants/index.php"><?php echo 'Nafems' ?></a>
+        <a href="<?php echo DOMAIN;?>/participants/index.php"><?php echo 'test' ?></a>
     </div>
     <div class="headline">
         --- <?php echo $headline; ?> ---
